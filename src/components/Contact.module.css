@@ -1,0 +1,32 @@
+.contactSection {
+  text-align: center;
+}
+
+.contactSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contactSection p {
+  font-size: 1.1rem;
+  color: var(--gray-text);
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.iconLink {
+  color: var(--gray-text);
+  font-size: 2rem; /* Makes icons bigger */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.iconLink:hover {
+  color: var(--accent-color);
+  transform: translateY(-5px);
+}
