@@ -1,19 +1,23 @@
+// src/components/Journey.jsx
+
 import React from 'react';
 import styles from './Journey.module.css';
-import { FaGraduationCap, FaUserTie, FaAward } from 'react-icons/fa';
+// We'll add a few more icons to better represent your achievements
+import { FaGraduationCap, FaUserTie, FaAward, FaTrophy, FaUsers } from 'react-icons/fa';
 
+// NEW: This data is tailored to your bio to tell a compelling story.
 const journeyData = [
   {
     icon: <FaGraduationCap />,
     date: '2024 - 2026',
     title: 'Master of Computer Applications (MCA)',
-    subtitle: 'Sardar Patel Institute of Technology, Mumbai',
+    subtitle: '(Bhavan’s) Sardar Patel Institute of Technology, Mumbai',
   },
   {
     icon: <FaUserTie />,
     date: '2024 - Present',
-    title: 'Creative Subcommittee Member',
-    subtitle: 'Leading creative design and promotion for technical events.',
+    title: 'Institute Roles & Responsibilities',
+    subtitle: 'Active as a Training & Placement Officer (TPO) and Creative Subcommittee Member at SPIT, Mumbai.',
   },
   {
     icon: <FaGraduationCap />,
@@ -22,11 +26,23 @@ const journeyData = [
     subtitle: 'Dnyandeep College of Science and Commerce',
   },
   {
-    icon: <FaAward />,
+    icon: <FaUsers />,
     date: '2021 - 2024',
-    title: 'University-Level Awards & Leadership',
-    subtitle: 'Secured top ranks in Debate & Writing; Served as IQAC and Class Representative.',
+    title: 'Sustained Leadership & Representation',
+    subtitle: 'Served as Class Representative, IQAC Student Representative, and NSS Girls Representative at Dnyandeep College.',
   },
+  {
+    icon: <FaTrophy />,
+    date: '2023 - 2024',
+    title: 'Key University-Level Accolades',
+    subtitle: 'Secured top ranks in University Debate (North-Ratnagiri) and Creative Writing (DLLE UDAAN Fest).',
+  },
+  {
+    icon: <FaAward />,
+    date: '2021 - 2022',
+    title: 'Zonal & Inter-College Recognition',
+    subtitle: 'Achieved Third Rank in Zonal On-the-Spot Painting and First Rank in an Inter-College competition.',
+  }
 ];
 
 const Journey = () => {
@@ -49,5 +65,4 @@ const Journey = () => {
   );
 };
 
-// THIS IS THE FIX
 export default Journey;

@@ -1,0 +1,45 @@
+/* src/components/Skills.module.css */
+
+.skillsSection {
+  text-align: center;
+  padding: 2rem;
+}
+
+.skillsSection h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.skillsContainer {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skillsContainer > div {
+  margin-bottom: 2rem;
+}
+
+.skillsContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag {
+  background-color: var(--card-bg);
+  color: var(--gray-text);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+}

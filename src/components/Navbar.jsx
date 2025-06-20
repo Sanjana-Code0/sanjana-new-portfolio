@@ -8,6 +8,7 @@ const Navbar = () => {
       <div className={styles.navLinks}>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
+         <a href="#accolades">Accolades</a> {/* <-- ADD THIS LINK */}
         <a href="#journey">Journey</a>
         <a href="#contact" className={styles.contactButton}>Contact</a>
       </div>
